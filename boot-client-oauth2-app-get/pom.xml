@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ids</groupId>
-	<artifactId>boot-client-oauth-application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<artifactId>boot-client</artifactId>
+	<version>0.0.1</version>
+	<packaging>war</packaging>
 
-	<name>boot-client-application</name>
+	<name>boot-client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -48,6 +48,10 @@
 			<artifactId>lombok</artifactId>
 		</dependency>
 
+                <dependency>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-tomcat</artifactId>
+                </dependency>
 	</dependencies>
 
 	<build>
